@@ -1,0 +1,20 @@
+POST http://127.0.0.1:8000/customer/cart
+Authorization: Token ce4b8b024c3e98a6b62806300a5785cfcd0ca9f6
+Content-Type: application/json
+
+{
+    "food_item": 1,
+    "user": 5
+}
+
+
+###
+GET http://127.0.0.1:8000/customer/cart
+Authorization: Token ce4b8b024c3e98a6b62806300a5785cfcd0ca9f6
+Content-Type: application/json
+
+###
+GET http://127.0.0.1:8000/customer/activate/MTE/ciupfe-a75df3452733d7260b98235b64951ee6/
+
+###
+GET https://foodie-api-1nof.onrender.com/food/list/
